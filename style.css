@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.nav1 {
+    color: #fff;
+    background-color: #252525;
+    padding: 6px 6px 6px 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1 .navbar {
+    display: flex;
+    align-items: center;
+}
+.nav1 .navbar .logo {
+    padding: 6px 20px;
+}
+.nav1 .navbar .bord {
+    border-right: 1px solid #555555;
+}
+.nav1 .navbar span {
+    padding-right: 16px;
+}
+.nav1 div {
+    font-size: 12px;
+}
+.nav1 .navbar img {
+    width: 3.5em;
+    padding: 3px 3px 0 0;
+}
+.nav1 .logo i{
+    scale: 1.8;
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.nav2 img {
+    width: 180px
+}
+.nav2 .navbar {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #0C2340;
+    gap: 26px;
+    padding-right: 250px;
+}
+.nav2 .navbar #red {
+    color: #C40C2F;
+}
+.nav2 .search {
+    padding: 16px 26px;
+    border-bottom: 1px solid #000;
+    word-spacing: 12px;
+}
+.nav2 .search {
+    font-size: 14px;
+}
+.nav2 .search i {
+    scale: 1.7;
+    padding-right: 4px;
+}
+.nav2 .btn {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #c40c2e;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.nav2 .btn .txt .i {
+    font-weight: 600;
+    font-size: 13px;
+    padding-bottom: 4px;
+}
+.nav2 .btn .txt .ii {
+    font-size: 10px;
+    font-weight: 400;
+}
